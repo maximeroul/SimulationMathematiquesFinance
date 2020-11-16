@@ -1,0 +1,37 @@
+
+
+procedure CONVERTIRSECONDES
+ENTREES : x : etier
+
+DEBUT
+    x <- LIRE(saisie)
+    heures <- entier(x / 3600)
+    x <- x - h * 3600
+    minutes <- entier(x / 60)
+    x <- x - minutes * 60
+
+    afficher(heures, " heures", minutes, " minutes", x, " secondes")
+
+FIN
+
+SORTIES : entier (secondes) convertie en heures minutes secondes
+
+question 4
+
+fonction covertir
+"""Transformation pouces en centimetres
+ENTREES : x : entier
+
+DEBUT
+    x <- LIRE("Saisie moi la taille de l'écran en pouces : ", taille_ecran)
+
+    """pouces = 2,54cm"""
+    centimetres <- x * 2,54
+
+    RETOURNER centimetres
+
+FIN
+
+SORTIES : entier (secondes) convertie en heures minutes secondes
+
+lien devoir : https://www.pearltrees.com/s/file/preview/228637602/ListesTuples%20cours%20exercices.pdf?pearlId=325341394
